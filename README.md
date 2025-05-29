@@ -1,13 +1,5 @@
 # Hyprland dotfiles
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/koeqaife/hyprland-material-you?style=for-the-badge&labelColor=%23424242&color=%23B2FF59)
-![GitHub repo size](https://img.shields.io/github/repo-size/koeqaife/hyprland-material-you?style=for-the-badge&labelColor=%23424242&color=%2384FFFF)
-![GitHub Repo stars](https://img.shields.io/github/stars/koeqaife/hyprland-material-you?style=for-the-badge&labelColor=%23424242&color=%23B9F6CA)
-![GitHub contributors](https://img.shields.io/github/contributors/koeqaife/hyprland-material-you?style=for-the-badge&labelColor=%23424242&color=%23FFAB40)
-![GitHub License](https://img.shields.io/github/license/koeqaife/hyprland-material-you?style=for-the-badge&labelColor=%23424242&color=%23FF9E80)
-
-[![Screenshot](screenshots/screenshot1.png "Screenshot")](screenshots/screenshot1.png)
-
 Hyprland Material You. It aims to provide a modern, feature-rich, and visually appealing desktop configuration.
 Here are some key features:
 
@@ -15,12 +7,6 @@ Here are some key features:
 - **Fluid Animations**: Expect natural and fluid animations throughout the desktop experience.
 - **Design**: The design wherever possible is made by [Material 3 design](https://m3.material.io/) (or Material You).
 - **Ripple effect**: There is a ripple effect on almost all of the buttons on the interface
-
-> Discord: <https://discord.gg/nCK3sh8mNU>
-
-I'm creating v2 version for this dotfiles, so for any spoilers go to discord server.  
-I'm doing everything **for free**, and you know, for me it's kinda difficult to find time and do this config, so please, if you can donate or if you want donate you can check my ko-fi.  
-https://ko-fi.com/koeqaife
 
 ## To install
 
@@ -34,49 +20,8 @@ https://ko-fi.com/koeqaife
 sudo pacman -Syu
 sudo pacman -S git
 cd ~
-git clone --depth=1 https://github.com/koeqaife/hyprland-material-you.git
+git clone --depth=1 https://github.com/AnasRiz911/hyprland-material-you.git
 mv hyprland-material-you dotfiles
 cd dotfiles
 ./install.sh
 ```
-
-## Screenshots
-
-- Sidebar
-  
-[![Screenshot](screenshots/sidebar.png "Sidebar")](screenshots/sidebar.png)[![Screenshot](screenshots/sidebar-system.png "Sidebar system info")](screenshots/sidebar-system.png)
-
-- Settings
-  
-[![Screenshot](screenshots/settings.png "Settings")](screenshots/settings.png)
-
-- Player
-  
-[![Screenshot](screenshots/player.png "Player")](screenshots/player.png)
-
-- Apps
-  
-[![Screenshot](screenshots/apps-menu.png "Apps")](screenshots/apps-menu.png)
-
-- Lock Screen (hyprlock)
-
-[![Screenshot](screenshots/hyprlock.png "Hyprlock")](screenshots/hyprlock.png)
-
-- Gtk theme:
-  
-[![Screenshot](screenshots/gtk-theme.png "Dark gtk theme")](screenshots/gtk-theme.png)
-[![Screenshot](screenshots/light-theme.png "Light gtk theme")](screenshots/light-theme.png)
-
-- List of keybindings
-
-[![Screenshot](screenshots/cheatsheet.png "CheatSheet")](screenshots/cheatsheet.png)
-
-- Emoji picker
-
-[![Screenshot](screenshots/emoji.png "emoji picker")](screenshots/emoji.png)
-
-- Left sidebar
-
-[![Screenshot](screenshots/sideleft.png "sideleft")](screenshots/sideleft.png)
-
-> I got some code for AGS from [end-4](https://github.com/end-4/dots-hyprland/) and [kotontrion](https://github.com/kotontrion/dotfiles) configs, thanks to them.
